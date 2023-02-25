@@ -1,0 +1,27 @@
+.test {
+  color: green;
+  font-size: 20px;
+}
+.top {
+  top: 0px;
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+}
+.bubble {
+  width: 70px;
+  height: 70px;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  border-radius: 100%;
+  background-color: rgb(13, 189, 151);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  text-align: center;
+  cursor: pointer;
+}
+.name{
+    padding: 18px 0 4px 0;
+}
+

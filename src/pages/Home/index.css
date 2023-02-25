@@ -1,0 +1,32 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.top {
+  flex: 0;
+  border-bottom: solid 1px var(--adm-color-border);
+}
+
+.body {
+  flex: 1;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+
+.bottom {
+  flex: 0;
+  border-top: solid 1px var(--adm-color-border);
+  background-color: antiquewhite;
+}
+.bottom .adm-tab-bar-item-active {
+  color: green;
+}
+/* .text {
+  height: 1200px;
+} */

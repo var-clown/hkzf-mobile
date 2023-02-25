@@ -1,0 +1,23 @@
+html,body{
+    height: 100%;
+    font-size: 'Microsoft YaHei';
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    font-size: 14px;
+}
+*{
+    box-sizing: border-box;
+}
+#root,.App{
+    height: 100%;
+}
+ul,p{
+    margin: 0;
+}
+
+ul{
+      list-style:none;  
+}
+
+
