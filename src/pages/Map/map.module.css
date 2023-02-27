@@ -21,7 +21,100 @@
   text-align: center;
   cursor: pointer;
 }
-.name{
-    padding: 18px 0 4px 0;
+.name {
+  padding: 18px 0 4px 0;
+}
+.rect {
+  height: 20px;
+  line-height: 19px;
+  width: 100px;
+  padding: 0 3px;
+  border-radius: 3px;
+  position: absolute;
+  background-color: green;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.housename {
+  display: inline-block;
+  width: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.housenum {
+  display: inline-block;
+  width: 20px;
+}
+.housetitle {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+  background: #f0f0f0;
+  font-size: 16px;
+  font-weight: 600;
 }
 
+.housetitle span {
+  float: right;
+  color: #b2afaf;
+  font-size: 14px;
+  right: 100px;
+  margin-right: 60px;
+}
+.houselist {
+  padding: 0 10px;
+  overflow-y: scroll;
+/* height: 40vh, */
+height: 2000px;
+padding-bottom: 50px;
+}
+.listContent {
+  display: flex;
+  margin:10px 0;
+  width: 100%;
+
+}
+.houseListLeft {
+  width: 130px;
+  height: 80px;
+  background-color: aqua;
+}
+.imgSrc{
+    width: 100%;
+    height: 100%;
+}
+.houseListRight {
+  flex: 1;
+ padding: 0 10px;
+}
+.itemTitle {
+  font-size: 16px;
+  font-weight: 600;
+  width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.itemContent{
+    font-size: 14px;
+    color: #b2aaaa;
+  
+}
+.itemSubway{
+    /* padding: 1px 6px;
+    background-color: rgb(137, 226, 238);
+    color: blue;
+    border-radius: 2px;
+    margin:2px 0;
+    display: inline-block;
+    font-size: 12px; */
+    margin-right: 5px;
+}
+.itemPrice{
+    color: red;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 0px;
+}
